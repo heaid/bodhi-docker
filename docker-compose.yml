@@ -1,7 +1,7 @@
 version: '3'
 services:
   bodhi:
-      image: ghcr.io/lotusnetwork/bodhi-docker
+      image: heaid/bodhi
       volumes:
         - './data:/gateway'
       restart: always
